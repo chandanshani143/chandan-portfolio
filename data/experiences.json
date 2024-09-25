@@ -1,0 +1,48 @@
+[
+    {
+        "image": "/cognizant_icon.png",
+        "company": "Cognizant",
+        "role": "Jr. Software Engineer (Automation Developer)",
+        "descriptions": [
+            "Developed and implemented robust automation solutions for web applications, significantly enhancing efficiency and minimizing manual effort.",
+            "Experienced in scripting with Python, leveraging the Selenium library for web browser automation.",
+            "Skilled in database management and interaction, using Microsoft SQL Server and MySQL for data-driven testing and automation.",
+            "Worked on debugging automation scripts to identify and resolve issues as well as worked on enhancements and maintenance to ensure the continued effectiveness of the automation suite.",
+            "Leveraged Unix shell scripting to automate tasks related to web application deployment, maintenance, and other operational processes.",
+            "Collaborated with cross-functional teams (QA, DevOps, Product) to identify automation opportunities, translating business needs into technical solutions that reduced operational costs by 40%.",
+            "Maintained and documented the automation project for project management applications.",
+            "Successfully automated over 20+ web application use cases, eliminating 200+ hours/year of repetitive work and enhancing cross-functional team productivity."
+          ],
+        "dates": "2023 - 2024"
+    },
+    {
+        "image": "/cognizant_icon.png",
+        "company": "Cognizant",
+        "role": "Junior Software Engineer",
+        "descriptions": [
+            "Developed and maintained user interfaces using React.js, contributing to a seamless and engaging user experience.",
+            "Implemented state management solutions using Redux, optimizing application performance and data flow.",
+            "Experienced in working with RESTful APIs, utilizing Postman for API testing and integration, and connecting front-end applications with back-end services built with Spring Boot using Axios.",
+            "Assisted in the development of back-end services, contributing to the implementation of business logic within the Spring Boot framework.",
+            "Collaborated effectively with cross-functional teams, including designers, product managers, and back-end developers, to deliver high-quality products on time.",
+            "Utilized version control systems (Git) for collaborative development, code management, and efficient bug tracking.",
+            "Demonstrated a strong understanding of software development methodologies (e.g., Agile, Scrum) and participated in sprint planning, daily stand-ups, and retrospectives."
+          ],
+        "dates": "2022 - 2023"
+    },
+    {
+        "image": "/cognizant_icon.png",
+        "company": "Cognizant",
+        "role": "Web Developer Intern",
+        "descriptions": [
+            "Gained practical experience in full-stack web development, contributing to various stages of the software development lifecycle.",
+            "Developed front-end user interfaces using React, creating dynamic and responsive web applications.",
+            "Built and managed databases using MySQL, utilizing JDBC and Hibernate for data persistence and retrieval.",
+            "Developed back-end services and APIs with Java Spring Boot, contributing to the creation of robust and scalable applications. Connected the front-end and back-end using Axios for seamless data exchange.",
+            "Learned and applied software development principles, including object-oriented programming, data structures, and algorithms.",
+            "Gained a foundational understanding of microservices architecture and its benefits.",
+            "Utilized GitHub for version control, collaborative development, and code management."
+          ],
+        "dates": "2021 - 2022"
+    }
+]
