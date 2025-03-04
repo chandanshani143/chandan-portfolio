@@ -1,32 +1,35 @@
 [
     {
-        "thumbnail": "/weather_thumbnail.png",
-        "title": "Weather Dashboard",
+        "thumbnail": "/hr_analytics.jpg",
+        "title": "HR Analytical System",
         "link": {
             "label": "Weather.dash",
             "url": "https://www.example.com"
         },
-        "description": "Developed a weather dashboard that fetches real-time data from a public API.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+        "description": "System which provides an appraisal to the employees by collecting their data from the application and generate a report based on their performance using Bayesian ML and decision tree algorithm.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/python2.png", "/decision-tree.png"],
+        "githubUrl": "https:www.github.com"
+    },
+    {
+        "thumbnail": "/ipl-prediction.jpg",
+        "title": "IPL Winner Prediction",
+        "link": {
+            "label": "Weather.dash",
+            "url": "https://www.example.com"
+        },
+        "description": "This IPL winner prediction uses five Machine Learning algorithms with K-10 folds to optimize accuracy. Users input team names,venue, city, toss winner, and toss decision to predict the winner.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/python2.png", "flask.png"],
+        "githubUrl": "https:www.github.com"
     },
     {
         "thumbnail": "/weather_thumbnail.png",
-        "title": "Weather Dashboard",
+        "title": "PocketPass Password Manager",
         "link": {
             "label": "Weather.dash",
             "url": "https://www.example.com"
         },
         "description": "Developed a weather dashboard that fetches real-time data from a public API.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
-    },
-    {
-        "thumbnail": "/weather_thumbnail.png",
-        "title": "Weather Dashboard",
-        "link": {
-            "label": "Weather.dash",
-            "url": "https://www.example.com"
-        },
-        "description": "Developed a weather dashboard that fetches real-time data from a public API.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"],
+        "githubUrl": "https:www.github.com"
     }
 ]

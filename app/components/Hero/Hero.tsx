@@ -14,7 +14,7 @@ const Hero = () => {
       md:gap-[34px] md:my-[58px] md:items-start'>
         <Reveal initialX={-25}>
           <h1 className='text-2xl/1 text-center font-semibold block
-        md:text-[40px] md:text-start md:inline'>
+        md:text-[40px] md:text-start md:inline h-[100px] md:h-[120px]'>
             <span className='-ml-3'>👋</span>
             Hello I'm Chandan Kumar Shani, I'm a {" "}
             <span
