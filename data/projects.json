@@ -12,7 +12,7 @@
     },
     {
         "thumbnail": "/ipl-prediction.jpg",
-        "title": "IPL Winner Prediction",
+        "title": "FinTrack",
         "link": {
             "label": "Weather.dash",
             "url": "https://www.example.com"
@@ -23,7 +23,7 @@
     },
     {
         "thumbnail": "/weather_thumbnail.png",
-        "title": "PocketPass Password Manager",
+        "title": "DrivsyAI",
         "link": {
             "label": "Weather.dash",
             "url": "https://www.example.com"

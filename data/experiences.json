@@ -2,7 +2,7 @@
     {
         "image": "/cognizant_icon.png",
         "company": "Cognizant",
-        "role": "Jr. Software Engineer (Automation Developer)",
+        "role": "Junior Software Developer",
         "descriptions": [
             "Developed and implemented robust automation solutions for web applications, significantly enhancing efficiency and minimizing manual effort.",
             "Experienced in scripting with Python, leveraging the Selenium library for web browser automation.",
@@ -11,14 +11,14 @@
             "Leveraged Unix shell scripting to automate tasks related to web application deployment, maintenance, and other operational processes.",
             "Collaborated with cross-functional teams (QA, DevOps, Product) to identify automation opportunities, translating business needs into technical solutions that reduced operational costs by 40%.",
             "Maintained and documented the automation project for project management applications.",
-            "Successfully automated over 20+ web application use cases, eliminating 200+ hours/year of repetitive work and enhancing cross-functional team productivity."
+            "Reduced operational costs by 40% through scalable automation solutions; regularly debugged and maintained scripts for long-term performance."
           ],
         "dates": "2023 - 2024"
     },
     {
         "image": "/cognizant_icon.png",
         "company": "Cognizant",
-        "role": "Junior Software Engineer",
+        "role": "Programmer Analyst Trainee",
         "descriptions": [
             "Developed and maintained user interfaces using React.js, contributing to a seamless and engaging user experience.",
             "Implemented state management solutions using Redux, optimizing application performance and data flow.",
@@ -33,7 +33,7 @@
     {
         "image": "/cognizant_icon.png",
         "company": "Cognizant",
-        "role": "Web Developer Intern",
+        "role": "Software Developer Intern",
         "descriptions": [
             "Gained practical experience in full-stack web development, contributing to various stages of the software development lifecycle.",
             "Developed front-end user interfaces using React, creating dynamic and responsive web applications.",
