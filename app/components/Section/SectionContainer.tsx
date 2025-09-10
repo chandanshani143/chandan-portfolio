@@ -7,7 +7,7 @@ type Props = React.PropsWithChildren<{
 const SectionContainer = ({ children, id }: Props) => {
   return (
     <section id={id} className='2-full relative flex
-    justify-center z-30'>
+    justify-center z-30 scroll-mt-32'>
         {children}
     </section>
   )

@@ -4,9 +4,13 @@ import React from 'react'
 const TopBackground = () => {
   return (
     <>
-    <div className='absolute flex gap-2 md:gap-3 md:top-[150px] left-[100px] items-center'>
-        <img src="/profile_icon3.png" alt="My Profile Icon" className='w-10 h-19' />
-        <span className='text-xl font-medium hidden md:block'>Chandan Kumar Shani</span>
+    <div className='fixed z-[55] flex gap-2 md:gap-3 top-[50px] left-6 items-center 
+    bg-white/80 dark:bg-[#18181b]/80 backdrop-blur-sm py-2 px-3 rounded-lg 
+    border border-gray-200/20 dark:border-gray-700/20'>
+        <img src="/profile_icon3.png" alt="My Profile Icon" className='w-10 h-10' />
+        <span className='text-2xl font-medium hidden lg:block text-gray-800 dark:text-gray-100'>
+        Chandan Kumar Shani
+    </span>
     </div>
     <div className="absolute w-full max-w-[360px] md:max-w-screen-lg
     h-[285px] md:h-[656px] top-[188px] md:top-11 
@@ -20,7 +24,7 @@ const TopBackground = () => {
                 width={23}
                 height={23}/>
             </div>
-            <div className="circle-icon top-[162px] -left-5
+            <div className="circle-icon hidden md:circle-icon top-[162px] -left-5
             md:top-52 md:left-0">
                 <Image
                 src="/bracket_icon.svg"
@@ -29,7 +33,7 @@ const TopBackground = () => {
                 height={23}/>
             </div>
             <div className="circle-icon top-60 left-[149px]
-            md:top-[600px] md:left-0">
+            md:top-[600px] md:left-[-17px]">
                 <Image
                 src="/github_icon.svg"
                 alt='Github icon'
@@ -86,8 +90,6 @@ const TopBackground = () => {
     bg-[url('/top_bg_dark.svg')] bg-[auto_auto] hidden md:dark:block" />
     <div className="absolute top-0 w-full h-[600px] bg-repeat-x 
     bg-[url('/top_bg_mobile_dark.svg')] bg-[auto_auto] hidden dark:block md:hidden" />
-
-
     </>
   )
 }

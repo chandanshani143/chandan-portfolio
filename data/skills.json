@@ -13,9 +13,13 @@
     },
     {
       "name": "TypeScript",
-      "icon": "/typescript_icon.png"
+      "icon": "/TypeScript.png"
    },
-    {
+   {
+      "name": "NextJs",
+      "icon": "/Nextjs.png"
+   },
+   {
        "name": "React JS",
        "icon": "/react_icon.png"
     },
@@ -32,12 +36,28 @@
        "icon": "/java_icon.png"
     },
     {
-       "name": "Git",
-       "icon": "/github_icon.svg"
-    },
-    {
       "name": "Python",
       "icon": "/python_icon.svg"
+   },
+   {
+      "name": "Pandas",
+      "icon": "/pandas2.png"
+   },
+   {
+      "name": "Flask",
+      "icon": "/Flask.jpg"
+   },
+   {
+      "name": "NumPy",
+      "icon": "/numpy.png"
+   },
+   {
+      "name": "Matplotlib",
+      "icon": "/matplotlib.png"
+   },
+   {
+      "name": "FastAPI",
+      "icon": "/FastAPI.png"
    },
    {
       "name": "MySQL",
@@ -48,8 +68,43 @@
       "icon": "/sqlserver_icon.png"
    },
    {
+      "name": "PostgreSQL",
+      "icon": "/PostgresSQL.png"
+   },
+   {
+      "name": "MongoDB",
+      "icon": "/mongodb.png"
+   },
+   {
       "name": "Robot Framework",
       "icon": "/robot_icon.png"
+   },
+   {
+      "name": "Scikit-Learn",
+      "icon": "/scikit-learn.png"
+   },
+   {
+      "name": "Streamlit",
+      "icon": "/streamlit.png"
+   },
+   {
+       "name": "Git",
+       "icon": "/github_icon.svg"
+    },
+    {
+      "name": "Gemini API",
+      "icon": "gemini.png"
+    },
+   {
+      "name": "VSCode",
+      "icon": "/vs-code.png"
+   },
+   {
+      "name": "Power BI",
+      "icon": "/powerbi.jpeg"
+   },
+   {
+      "name": "Docker",
+      "icon": "/Docker.png"
    }
-    
 ]

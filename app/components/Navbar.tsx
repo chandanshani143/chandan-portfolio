@@ -1,16 +1,48 @@
 "use client";
 
-import React, { use, useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import cn from 'classnames';
 import Reveal from './Reveal';
 
 const Navbar = () => {
-
     const [isOpen, setIsOpen] = useState(false);
     const [activeSection, setActiveSection] = useState("home");
 
+    //scroll handler to update active section
     useEffect(() => {
-        setActiveSection("home");
+        const handleScroll = () => {
+            const sections = document.querySelectorAll('section');
+            const scrollPosition = window.scrollY + window.innerHeight / 2; // Use middle of viewport
+
+            // Special case for home section
+            if (scrollPosition < window.innerHeight) {
+                setActiveSection("home");
+                return;
+            }
+
+            // Check if we're at bottom of page for contact section
+            if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
+                setActiveSection("contact");
+                return;
+            }
+
+            // Check other sections
+            sections.forEach(section => {
+                if (!section.id) return;
+
+                const sectionTop = (section as HTMLElement).offsetTop;
+                const sectionHeight = (section as HTMLElement).offsetHeight;
+                const sectionBottom = sectionTop + sectionHeight;
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+                    setActiveSection(section.id);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Initial check
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     const scrollToSection = useCallback
@@ -25,10 +57,10 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-12 right-6
-    mx-auto flex flex-col gap-2.5 items-end z-50
+    mx-auto flex flex-col gap-2.5 items-end z-[60]
     md:right-auto md:left-1/2 md:-translate-x-1/2">
-            <button className="bg-background
-         p-3 md:hidden rounded"
+            <button className="bg-white/80 dark:bg-[#18181b]/80 backdrop-blur-sm
+    p-3 md:hidden rounded-lg border border-gray-200/20 dark:border-gray-700/20"
                 onClick={() => setIsOpen((prevValue) => !prevValue)}>
                 <img
                     className="block dark:hidden"
@@ -43,7 +75,8 @@ const Navbar = () => {
             </button>
             <Reveal initialY={-20} duration={0.5}>
                 <nav
-                    className={cn("bg-background card-shadow cursor-pointer p-3 rounded md:block duration-300 ease-in-out",
+                    className={cn(
+                        "bg-white/80 dark:bg-[#18181b]/80 backdrop-blur-sm cursor-pointer p-3 rounded-lg md:block duration-300 ease-in-out border border-gray-200/20 dark:border-gray-700/20",
                         {
                             "opacity-100": isOpen,
                             "opacity-0 md:opacity-100": !isOpen,
@@ -65,6 +98,22 @@ const Navbar = () => {
                                     setIsOpen(false)
                                 }}
                             >Home
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                className={cn("rounded p-1 duration-300 ease-in-out", 
+                                    {
+                                    "bg-primary text-white": activeSection === "about",
+                                    "hover:bg-primary/80 hover:text-violet-600": activeSection !== "about",
+                                    }
+                            )}
+                                onClick={() => {
+                                    scrollToSection("about")
+                                    setActiveSection("about")
+                                    setIsOpen(false)
+                                }}
+                            >About
                             </div>
                         </li>
                         <li>
@@ -113,6 +162,22 @@ const Navbar = () => {
                                     setIsOpen(false)
                                 }}
                             >Experience
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                className={cn("rounded p-1 duration-300 ease-in-out", 
+                                    {
+                                    "bg-primary text-white": activeSection === "education",
+                                    "hover:bg-primary/80 hover:text-violet-600": activeSection !== "education",
+                                    }
+                            )}
+                                onClick={() => {
+                                    scrollToSection("education")
+                                    setActiveSection("education")
+                                    setIsOpen(false)
+                                }}
+                            >Education
                             </div>
                         </li>
                         <li>

@@ -4,12 +4,11 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 
 const ThemeToggle = () => {
-    const [isDarkMode, setIsDarkMode] = 
-    useState<boolean>(
+    const [isDarkMode, setIsDarkMode] = useState<boolean>(
         typeof window !== "undefined"
-        ? localStorage.getItem("theme") === "dark" || 
-        window.matchMedia("(prefers-color-scheme: dark)").matches 
-        : true
+            ? localStorage.getItem("theme") === "dark" || 
+              window.matchMedia("(prefers-color-scheme: dark)").matches 
+            : true
     );
 
     useEffect(() => {
@@ -34,16 +33,26 @@ const ThemeToggle = () => {
             setIsDarkMode((prev) => !prev);
         };
 
-  return (
-    <button onClick={toggleTheme} 
-    className='fixed top-[58px] left-6 md:top-16 
-    md:left-auto md:right-[42px] w-9 h-[18px] bg-[#1a1a1a] dark:bg-[#efefef]
-    rounded-lg z-50 flex items-center justify-end dark:justify-start px-1'>
-        {isDarkMode 
-        ? <Image src="/sun_icon.svg"  alt='sun icon' height={14} width={14} />
-        : <Image src="/moon_icon.svg"  alt='moon icon' height={14} width={19} />}
-    </button>
-  )
+    return (
+        <button
+            onClick={toggleTheme}
+            className='fixed h-[32px] rounded-lg z-[70] flex items-center gap-2 px-2
+                // Mobile styles
+                top-[100px] right-6 bg-white dark:bg-[#18181b]
+                border border-gray-200 dark:border-gray-700
+                // Medium & Large screen styles (aligned with navbar, with text)
+                md:top-[63px] md:right-6 md:bg-white/80 md:dark:bg-[#18181b]/80 
+                md:backdrop-blur-sm md:border-gray-200/20 md:dark:border-gray-700/20'
+        >
+            {isDarkMode
+                ? <Image src="/sun_icon.svg" alt='sun icon' height={14} width={14} />
+                : <Image src="/moon_icon.svg" alt='moon icon' height={14} width={19} />
+            }
+            <span className="text-xs font-medium text-black dark:text-white ml-1 hidden md:inline">
+                {isDarkMode ? "Dark Mode" : "Light Mode"}
+            </span>
+        </button>
+    );
 }
 
 export default ThemeToggle

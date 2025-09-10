@@ -4,32 +4,32 @@
         "title": "HR Analytical System",
         "link": {
             "label": "Weather.dash",
-            "url": "https://www.example.com"
+            "url": "https://github.com/chandanshani143/HR-Analytics"
         },
-        "description": "System which provides an appraisal to the employees by collecting their data from the application and generate a report based on their performance using Bayesian ML and decision tree algorithm.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/python2.png", "/decision-tree.png"],
-        "githubUrl": "https:www.github.com"
+        "description": "Built an appraisal system that analyzes employee performance data and generates reports using Bayesian classification and Decision Tree algorithms. Applied PCA, Truncated SVD, and Chi-Square for feature selection; utilized Pandas, and NumPy for data processing and analysis.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/python2.png", "/scikit-learn.png","Flask.jpg","/pandas2.png","/numpy.png"],
+        "githubUrl": "https://github.com/chandanshani143/HR-Analytics"
     },
     {
-        "thumbnail": "/ipl-prediction.jpg",
+        "thumbnail": "/fintrack_screenshot.png",
         "title": "FinTrack",
         "link": {
             "label": "Weather.dash",
-            "url": "https://www.example.com"
+            "url": "https://github.com/chandanshani143/FinTrack"
         },
-        "description": "This IPL winner prediction uses five Machine Learning algorithms with K-10 folds to optimize accuracy. Users input team names,venue, city, toss winner, and toss decision to predict the winner.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/python2.png", "flask.png"],
-        "githubUrl": "https:www.github.com"
+        "description": "Developed an AI Finance platform for managing income and expenses with AI-based receipt scanning and categorization.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/Nextjs.png", "/tailwind_icon.svg", "/gemini.png","/PostgresSQL.png"],
+        "githubUrl": "https://github.com/chandanshani143/FinTrack"
     },
     {
-        "thumbnail": "/weather_thumbnail.png",
+        "thumbnail": "/drivsyAI_screenshot.png",
         "title": "DrivsyAI",
         "link": {
             "label": "Weather.dash",
-            "url": "https://www.example.com"
+            "url": "https://github.com/chandanshani143/DrivsyAI"
         },
-        "description": "Developed a weather dashboard that fetches real-time data from a public API.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"],
-        "githubUrl": "https:www.github.com"
+        "description": "Developed an AI Car Marketplace that enables users to explore car listings by name or image upload.",
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png", "/Nextjs.png", "/tailwind_icon.svg", "/gemini.png","/PostgresSQL.png"],
+        "githubUrl": "https://github.com/chandanshani143/DrivsyAI"
     }
 ]

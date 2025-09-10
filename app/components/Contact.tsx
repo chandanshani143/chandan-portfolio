@@ -45,7 +45,7 @@ const Contact = () => {
                         className='self-center md:self-start bg-primary text-white
                     p-2.5 rounded flex gap-2.5 items-center text-lg md:text-xl/l font-normal'
                     >
-                        Let&#8217;'s get in touch
+                        Let&#8217;s get in touch
                         <img src="/mail_icon.svg" alt="Mail icon" />
                     </a>
                     <div className='flex flex-row gap-1'>
@@ -85,7 +85,7 @@ const Contact = () => {
                     
                 </div>
             </div>
-            <small>Copyright &copy; Chandan Kumar Shani 2024</small>
+            <small>Copyright &copy; Chandan Kumar Shani 2025</small>
             <motion.div
             className='absolute w-64 h-64 bg-gradient-radial
              from-violet-700/100 to-transparent rounded-full 

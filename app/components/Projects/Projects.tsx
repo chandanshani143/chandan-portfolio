@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <SectionContainer id='projects'>
         <div className='section-contents mx-6 md:mx-[64]'>
-            <SectionHeader plainText='🚀 Some of my' highlightText='Best Works' />
+            <SectionHeader plainText='🚀 Some of my' highlightText='Projects' />
             <div className='lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 {
                     projects.map((project, id) => (
@@ -39,6 +39,34 @@ const Projects = () => {
         height={530}
         className='absolute md:hidden left-1/2 top-1/2 -translate-x-1/2 
         -translate-y-1/2 -z-10'
+        />
+        <Image
+        src="/tech_stack_grid_dark.svg"
+        alt="Background grid decoration dark"
+        width={569}
+        height={373}
+        className="hidden dark:md:block -z-10 absolute -left-[135px] -top-[70px]"
+        />
+        <Image
+          src="/tech_stack_grid.svg"
+          alt="Background grid decoration light"
+          width={569}
+          height={373}
+          className="hidden dark:hidden md:block -z-10 absolute -left-[140px] -top-[70px]"
+        />
+        <Image
+        src="/tech_stack_grid.svg"
+        alt="Background grid decoration light"
+        width={569}
+        height={373}
+        className="hidden dark:hidden md:block -z-10 absolute -right-[360px] -top-[70px]"
+        />
+        <Image
+        src="/tech_stack_grid_dark.svg"
+        alt="Background grid decoration dark"
+        width={569}
+        height={373}
+        className="hidden dark:md:block -z-10 absolute -right-[200px] -top-[70px]"
         />
     </SectionContainer>
   )

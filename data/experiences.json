@@ -4,15 +4,14 @@
         "company": "Cognizant",
         "role": "Junior Software Developer",
         "descriptions": [
-            "Developed and implemented robust automation solutions for web applications, significantly enhancing efficiency and minimizing manual effort.",
-            "Experienced in scripting with Python, leveraging the Selenium library for web browser automation.",
-            "Skilled in database management and interaction, using Microsoft SQL Server and MySQL for data-driven testing and automation.",
-            "Worked on debugging automation scripts to identify and resolve issues as well as worked on enhancements and maintenance to ensure the continued effectiveness of the automation suite.",
-            "Leveraged Unix shell scripting to automate tasks related to web application deployment, maintenance, and other operational processes.",
-            "Collaborated with cross-functional teams (QA, DevOps, Product) to identify automation opportunities, translating business needs into technical solutions that reduced operational costs by 40%.",
-            "Maintained and documented the automation project for project management applications.",
-            "Reduced operational costs by 40% through scalable automation solutions; regularly debugged and maintained scripts for long-term performance."
-          ],
+            "Developed and maintained responsive, interactive UIs using React, TypeScript, and JavaScript, applying modern component patterns and ensuring cross‑device compatibility.",
+            "Built and deployed full-stack features, integrating Next.js and React front-ends with Spring Boot and PostgreSQL back-ends via REST APIs, resulting in seamless data flow and robust application functionality.",
+            "Utilized Pandas and NumPy to clean, transform, and analyze large datasets, enabling faster insights and reducing manual data prep time by 40%.",
+            "Developed and maintained Python/Selenium automation scripts for 20+ use cases, improving web application efficiency and saving over 200 hours annually.",
+            "Integrated Unix shell scripting for scheduled tasks, cutting deployment time by 30% and improving system uptime.",
+            "Collaborated with cross-functional teams (QA, DevOps, Product) to identify automation opportunities, translating business needs into technical solutions that reduced operational costs by 60%.",
+            "Maintained and documented automation projects for project management applications, ensuring long-term sustainability and ease of use."
+        ],
         "dates": "2023 - 2024"
     },
     {
@@ -20,13 +19,11 @@
         "company": "Cognizant",
         "role": "Programmer Analyst Trainee",
         "descriptions": [
-            "Developed and maintained user interfaces using React.js, contributing to a seamless and engaging user experience.",
-            "Implemented state management solutions using Redux, optimizing application performance and data flow.",
-            "Experienced in working with RESTful APIs, utilizing Postman for API testing and integration, and connecting front-end applications with back-end services built with Spring Boot using Axios.",
-            "Assisted in the development of back-end services, contributing to the implementation of business logic within the Spring Boot framework.",
-            "Collaborated effectively with cross-functional teams, including designers, product managers, and back-end developers, to deliver high-quality products on time.",
-            "Utilized version control systems (Git) for collaborative development, code management, and efficient bug tracking.",
-            "Demonstrated a strong understanding of software development methodologies (e.g., Agile, Scrum) and participated in sprint planning, daily stand-ups, and retrospectives."
+            "Built and maintained React and Redux front-ends for large-scale applications, improving state management and component reusability for a more efficient and scalable codebase.",
+            "Contributed to the design and implementation of back-end services, including API design and database queries (MySQL, PostgreSQL), which enabled a 30% faster feature rollout for two key projects.",
+            "Proactively integrated front-ends with RESTful Spring Boot APIs, utilizing Axios and Postman for reliable data handling and leveraging Jest for comprehensive unit and integration testing to ensure data integrity.",
+            "Streamlined collaborative development by effectively utilizing version control systems (Git) for code management and bug tracking, resulting in a 50% reduction in merge conflicts.",
+            "Collaborated effectively in Agile/Scrum teams, leading to a 20% increase in sprint completion rate and successful delivery of high-quality products on time."
           ],
         "dates": "2022 - 2023"
     },
@@ -35,13 +32,11 @@
         "company": "Cognizant",
         "role": "Software Developer Intern",
         "descriptions": [
-            "Gained practical experience in full-stack web development, contributing to various stages of the software development lifecycle.",
+            "Gained hands-on experience in building web applications with front-end (React) and back-end (Spring Boot).",
             "Developed front-end user interfaces using React, creating dynamic and responsive web applications.",
-            "Built and managed databases using MySQL, utilizing JDBC and Hibernate for data persistence and retrieval.",
-            "Developed back-end services and APIs with Java Spring Boot, contributing to the creation of robust and scalable applications. Connected the front-end and back-end using Axios for seamless data exchange.",
-            "Learned and applied software development principles, including object-oriented programming, data structures, and algorithms.",
-            "Gained a foundational understanding of microservices architecture and its benefits.",
-            "Utilized GitHub for version control, collaborative development, and code management."
+            "Developed back-end services and APIs with Java Spring Boot, contributing to the creation of robust and scalable applications.",
+            "Managed database connections with web applications using Java tools (JDBC/Hibernate) and integrated front-end and back-end via APIs (Axios).",
+            "Applied OOP and data structures principles, and deepened understanding of modern software design (microservices)."
           ],
         "dates": "2021 - 2022"
     }

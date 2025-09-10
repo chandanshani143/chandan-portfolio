@@ -35,14 +35,15 @@ const Experience = ({
                     />
                     <h3 className='text-xl font-medium'>{company}</h3>
                 </div>
-                <p className='text-base md:text-xl font-medium'>{role}</p>
+                <p className='text-base text-indigo-600 dark:text-indigo-600 md:text-xl font-medium'>{role}</p>
             </div>
             <p className='text-sm/1 md:text-base'>{dates}</p>
             <div>
-                {descriptions.map((description, descId) =>(
+                {descriptions.map((description, descId) => (
                     <p key={descId}
-                     className='before:content-["•"] before:mr-2 text-sm  md:text-base'>
-                        {description}</p>
+                        className='before:content-["•"] before:mr-2 text-sm md:text-base mb-3 last:mb-0'>
+                        {description}
+                    </p>
                 ))}
             </div>
         </div>
