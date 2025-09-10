@@ -18,7 +18,7 @@ type Props = {
 
 const Project = ({ thumbnail,
   title,
-  link,
+  // link,
   description,
   languageIcons,
   githubUrl

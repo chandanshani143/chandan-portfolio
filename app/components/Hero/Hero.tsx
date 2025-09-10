@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import Reveal from '../Reveal'
 import { Typewriter } from "react-simple-typewriter";
@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className='text-2xl/1 text-center font-semibold block
         md:text-[40px] md:text-start md:inline h-[100px] md:h-[120px]'>
             <span className='-ml-3'>👋 </span>
-            Hello! I'm Chandan, I'm a {" "}
+            Hello! I&apos;m Chandan, I&apos;m a {" "}
             <span
               className="block text-[27px] highlight mt-2 md:text-[45px] 
               md:inline md:mt-0 transition-opacity duration-500 ease-in-out">
@@ -43,7 +43,7 @@ const Hero = () => {
               className='self-center bg-primary text-white p-2.5
               rounded flex gap-2.5 items-center text-sm
               md:self-start md:text-xl/6'>
-              Let's Connect{" "}
+              Let&apos;s Connect{" "}
               <img src="/mail_icon.svg"
                 alt="Mail icon" />
             </a>

@@ -7,6 +7,9 @@ const inter =  Inter({subsets: ["latin"]});
 export const metadata: Metadata = {
   title: "Chandan Portfolio",
   description: "Portfolio of Chandan Kumar Shani",
+  icons: {
+    icon: { url: '/profile_icon3.png', type: 'image/png' },  // single PNG icon
+  },
 };
 
 export default function RootLayout({

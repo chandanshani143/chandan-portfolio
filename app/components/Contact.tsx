@@ -38,14 +38,14 @@ const Contact = () => {
         md:w-full'>
                 <h2 className='font-semibold text-[22px] md:text-[40px]
             md:max-w-[462px]'>
-                    Want me on your team? Let's make it happen ✨
+                    Want me on your team? Let&apos;s make it happen ✨
                 </h2>
                 <div className='flex flex-col gap-5 items-center md:items-end'>
                     <a href="mailto:chandankumarshani98@gmail.com"
                         className='self-center md:self-start bg-primary text-white
                     p-2.5 rounded flex gap-2.5 items-center text-lg md:text-xl/l font-normal'
                     >
-                        Let&#8217;s get in touch
+                        Let&apos;s get in touch
                         <img src="/mail_icon.svg" alt="Mail icon" />
                     </a>
                     <div className='flex flex-row gap-1'>

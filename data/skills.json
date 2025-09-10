@@ -49,11 +49,11 @@
    },
    {
       "name": "NumPy",
-      "icon": "/numpy.png"
+      "icon": "/NumPy.png"
    },
    {
       "name": "Matplotlib",
-      "icon": "/matplotlib.png"
+      "icon": "/Matplotlib.png"
    },
    {
       "name": "FastAPI",
@@ -85,7 +85,7 @@
    },
    {
       "name": "Streamlit",
-      "icon": "/streamlit.png"
+      "icon": "/Streamlit.png"
    },
    {
        "name": "Git",

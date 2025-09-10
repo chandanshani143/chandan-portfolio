@@ -16,8 +16,8 @@ const About = () => {
                 <Reveal initialX={-50} delay={0.5}>
                     <div>
                         <p className="text-lg md:text-[22px] md:text-start text-gray-800 dark:text-gray-100 leading-snug mb-10">
-                            My name is Chandan Kumar Shani, and I am currently pursuing a Master's degree in Artificial Intelligence at Brandenburg University of Technology in Cottbus, Germany. 
-                            I hold a Bachelor's degree in Computer Science and Engineering from DIT University, Dehradun, and bring over 2.5 years of industry experience from my tenure at Cognizant, 
+                            My name is Chandan Kumar Shani, and I am currently pursuing a Master&apos;s degree in Artificial Intelligence at Brandenburg University of Technology in Cottbus, Germany. 
+                            I hold a Bachelor&apos;s degree in Computer Science and Engineering from DIT University, Dehradun, and bring over 2.5 years of industry experience from my tenure at Cognizant, 
                             where I contributed to software development and data-driven solutions across multiple domains.
                             <br /><br />
                             My technical expertise spans web development, backend engineering, data analysis, and machine learning. 
