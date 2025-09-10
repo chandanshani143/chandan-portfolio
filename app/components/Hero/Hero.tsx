@@ -21,7 +21,7 @@ const Hero = () => {
               className="block text-[27px] highlight mt-2 md:text-[45px] 
               md:inline md:mt-0 transition-opacity duration-500 ease-in-out">
               <Typewriter
-                words={["Software Engineer", "Data Analyst", "Frontend Developer", "MSc AI Student", "Web Developer"]}
+                words={["Software Engineer", "Data Analyst", "Frontend Developer", "MSc AI Student", "Web Developer", "AI Enthusiast"]}
                 loop={true} // Infinite loop
                 cursor
                 cursorStyle="|"
