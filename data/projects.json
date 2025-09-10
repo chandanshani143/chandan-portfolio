@@ -7,7 +7,7 @@
             "url": "https://github.com/chandanshani143/HR-Analytics"
         },
         "description": "Built an appraisal system that analyzes employee performance data and generates reports using Bayesian classification and Decision Tree algorithms. Applied PCA, Truncated SVD, and Chi-Square for feature selection; utilized Pandas, and NumPy for data processing and analysis.",
-        "languageIcons": ["/css_icon.png", "/html_icon.png", "/python2.png", "/scikit-learn .png","Flask.jpg","/pandas2.png","/numpy.png"],
+        "languageIcons": ["/css_icon.png", "/html_icon.png", "/python2.png", "/scikit-learn.png","Flask.jpg","/pandas2.png","/numpy.png"],
         "githubUrl": "https://github.com/chandanshani143/HR-Analytics"
     },
     {
